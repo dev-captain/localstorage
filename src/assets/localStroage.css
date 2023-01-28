@@ -1,0 +1,117 @@
+.container {
+    max-width: 1080px;
+    margin: auto;
+    /* background-color: #eee; */
+}
+h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+section {
+    margin: 100px 0;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+img {
+    width: 30px;
+    height: 100%;
+    object-fit: cover;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.table>thead:first-child>tr:first-child>th {
+    border-top: 0;
+}
+.table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+}
+.table>tbody>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+th {
+    text-align: left;
+}
+td, th {
+    padding: 0;
+}
+
+.btn {
+    text-decoration: none;
+    box-sizing: border-box;
+    color: white;
+    padding: 5px 15px;
+    background-color: #5cb85c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.main-section {
+    display: flex;
+    grid-template-columns: auto auto;
+    gap: 30px;
+}
+.main-section > div {
+    padding: 15px;
+    border: 1px solid #000;
+}
+.save-data {
+    width: 450px;
+}
+.work-flow {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+}
+.work-flow-users {
+
+}
+.work-flow-edit {
+
+}
+.work-flow-edit > form > div {
+    padding: 10px 0;
+}
+.work-flow-edit > form > div > span {
+    display: inline-block;
+    width: 90px;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+
+#avatar_view {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+@media (max-width: 1366px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 620px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 320px;
+    }
+}
