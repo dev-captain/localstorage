@@ -31,7 +31,6 @@ export function UserAction() {
                 <input className="btn" id="avatar" onChange={(e) => { 
                     try {
                         let avatarImg = e.target
-                            console.log(avatarImg)
                             var fReader = new FileReader();
                             try {
                                 fReader.readAsDataURL(avatarImg.files[0]);
@@ -42,7 +41,6 @@ export function UserAction() {
                             }
                     } catch (error) {
                     } }} type="file" name="avatar" style={{'display':'none'}} ref={avatarRef}/>
-                    {/* {console.log(userInfo)} */}
                 <span id="avatar_view" onClick={() => {avatarRef.current.click()}}><img src={userInfo.avatar} /></span>
                 <br/><br/>
                 {
