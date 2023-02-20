@@ -12,10 +12,10 @@ export function UserView() {
                     <thead>
                         <tr>
                             <th>No</th>
-                            <th>avatar</th>
-                            <th>first name</th>
-                            <th>last name</th>
-                            <th>action</th>
+                            <th>Aatar</th>
+                            <th>First name</th>
+                            <th>Last name</th>
+                            <th>Action</th>
                         </tr>
                     </thead>
                     <tbody id="user_list">
